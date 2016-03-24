@@ -1,10 +1,11 @@
 # [The Data Mining Cup](http://www.data-mining-cup.de/en/)
+----------------------------------------------------------
 
 The Data Mining Cup is an international competition hosted by a German analytics company, [prudsys AG](http://www.prudsys.de/en/). In 2015 almost 200 teams from about 150 universities in 48 countries took part in the competition. The best teams were invited to Berlin for the [awards ceremony](http://www.data-mining-cup.de/en/wettbewerb/preistraeger.html) at the [prudsys personalization summit (for retail)](http://www.prudsys.de/en/summit.html).
 
 Iowa State has a rich history of performing very well in DMC. Rick Zhou led ISU to fifth place in the 2013 competition, Cory Lanker led to first place in 2014, and Ian Mouzzon led to 2nd and 3rd place in 2015.
 
-### Important Dates
+## Important Dates
 
 **April 6** :: Competition officially starts and data is released
 
@@ -12,7 +13,9 @@ Iowa State has a rich history of performing very well in DMC. Rick Zhou led ISU 
 
 **June 28 - 29** :: prudsys personalization summit and award ceremony in Berlin
 
-### Using GitHub
+## Using GitHub
+
+### Getting Started
 
 If you are not familiar with Git and GitHub, please read through the following links:
 - [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)
@@ -28,3 +31,35 @@ Keep in mind that GitHub is not designed to be a database, and generally the siz
 - [Installing Git LFS](https://help.github.com/articles/installing-git-large-file-storage/)
 
 Remember, **please do not ever push large data files unless they are tracked by Git LFS**.
+
+### Workflow
+
+The typical workflow when using Git goes like this: 
+
+:one: **Pull** latest work from the remote repository 
+
+From command line:
+```bash
+> git pull
+```
+From GitHub app: just press the 'sync :repeat:' button
+
+:two: Do some coding...
+
+:three: **Commit** changes 
+
+From command line:
+```bash
+> git add -a     # to commit changes to files that are already being tracked by git, or use
+> git add [file] # to only commit changes for a specific file, or use
+> git add -A     # to commit changes for all files that you modified
+```
+From GitHub app: press the 'commit' button
+
+:four: **Push** changes back to the remote repository
+
+From command line:
+```bash
+> git push
+```
+From GitHub app: press the 'sync :repeat:' button
