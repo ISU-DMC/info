@@ -22,5 +22,9 @@ If you are used to working from the command line then Git should be easy for you
 
 There is also a YouTube Channel dedicating to using GitHub: [https://www.youtube.com/playlist?list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL](https://www.youtube.com/playlist?list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL).
 
-Keep in mind that GitHub is not designed to be a database, and generally the size of a repository is capped at 1 GB. However, we will be using the Git Large File Storage (Git LFS) system which is supported by GitHub in order to store datasets. With Git LFS we get up to 50 GB of storage which should be much more than enough for the competition. Using Git LFS is extremely easy. You can read about it here: [Getting started with Git LFS](https://git-lfs.github.com/?utm_source=github_site&utm_medium=billing_settings_link&utm_campaign=gitlfs).
+Keep in mind that GitHub is not designed to be a database, and generally the size of a repository is capped at 1 GB. However, we will be using the Git Large File Storage (Git LFS) system which is supported by GitHub in order to store datasets. With Git LFS we get up to 50 GB of storage which should be much more than enough for the competition. Using Git LFS is extremely easy. You can learn about it here: 
+- [Getting started with Git LFS](https://git-lfs.github.com/?utm_source=github_site&utm_medium=billing_settings_link&utm_campaign=gitlfs)
+- [Short video tutorial on Git LFS](https://www.youtube.com/watch?v=uLR1RNqJ1Mw) (and I really do mean short)
+- [Installing Git LFS](https://help.github.com/articles/installing-git-large-file-storage/)
+
 Remember, **please do not ever push large data files unless they are tracked by Git LFS**.
