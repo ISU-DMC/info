@@ -50,7 +50,7 @@ From GitHub app: just press the 'sync :repeat:' button
 
 From command line:
 ```bash
-> git add -a     # to commit changes to files that are already being tracked by git, or use
+> git add -u     # to commit changes to files that are already being tracked by git, or use
 > git add [file] # to only commit changes for a specific file, or use
 > git add -A     # to commit changes for all files that you modified
 ```
