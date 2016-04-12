@@ -50,10 +50,14 @@ From GitHub app: just press the 'sync :repeat:' button
 
 From command line:
 ```bash
+# First add files to staging area
 > git add -u     # to commit changes to files that are already being tracked by git, or use
 > git add [file] # to only commit changes for a specific file, or use
 > git add -A     # to commit changes for all files that you modified
+# Not commit changes
+> git commit -m "updates"
 ```
+
 From GitHub app: press the 'commit' button
 
 :four: **Push** changes back to the remote repository
